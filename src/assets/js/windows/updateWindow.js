@@ -1,7 +1,4 @@
-/**
- * @author Luuxis
- * @license CC-BY-NC 4.0 - https://creativecommons.org/licenses/by-nc/4.0/
- */
+
 
 "use strict";
 const electron = require("electron");
@@ -22,7 +19,7 @@ function destroyWindow() {
 function createWindow() {
     destroyWindow();
     updateWindow = new electron.BrowserWindow({
-        title: "Mise à jour",
+        title: "Update",
         width: 400,
         height: 500,
         resizable: false,
